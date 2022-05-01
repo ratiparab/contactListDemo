@@ -1,0 +1,37 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.wrapper {
+    padding: 70px 50px;
+}
+.mgb-30 {
+    margin-bottom: 30px;
+}
+.table thead tr th {
+    width: 20%;
+}
+.table thead tr th:last-child {
+    width: 40%;
+}
+.table tbody tr td {
+    vertical-align: middle;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@media screen and (max-width: 992px) {
+    .wrapper {
+        padding: 50px 15px;
+    }
+}
+
