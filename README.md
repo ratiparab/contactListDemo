@@ -33,11 +33,20 @@ Install dependencies
 
 ```bash
   npm install
+  
+  npm install -g http-server
 ```
 
 Start the server
 
 ```bash
   http-server -o
+  
+  OR
+  
+  OR
+Install Xampp server and keep the project directory inside Xampp/htdocs folder
+Open xampp control panel and start Apache server
+Run localhost:{{your apache port}}/{{Folder Name}}
 ```
 
