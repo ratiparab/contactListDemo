@@ -44,7 +44,6 @@ Start the server
   
   OR
   
-  OR
 Install Xampp server and keep the project directory inside Xampp/htdocs folder
 Open xampp control panel and start Apache server
 Run localhost:{{your apache port}}/{{Folder Name}}
